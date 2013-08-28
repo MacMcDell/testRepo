@@ -1,0 +1,559 @@
+/*#region Company header web part */
+
+.company-header h2 span {
+	font-size: 16px;
+	color: #D47600;
+}
+.company-header p {
+	line-height: 19px;
+	margin: 3px 0 10px;
+}
+.company-header .quote {
+	line-height: 24px;
+}
+.company-header .sep {
+	color: #888;
+	margin: 0 6px;
+}
+.company-header .price, 
+.company-header .change, 
+.company-header .change-percent, 
+.company-header .volume, 
+.company-header .highlow, 
+.company-header .highlow52 {
+	font-weight: bold;
+}
+
+.company-header .btn-portfolio {
+    float: inherit;margin-right: 0;
+}
+
+.company-header .addToPortfolio{ width: 150px;float: left;padding: 10px 0px;}
+.company-header .BTVContainer {}
+
+/*#endregion*/
+
+/*#region Company navigation web part */
+
+.comp-nav-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.comp-nav-container a {
+	font-weight: normal;
+}
+.comp-nav-container .current {
+	font-weight: bold;
+}
+.comp-nav-separator {
+	font-size: 18px;
+	color: #C9CACC;
+}
+.comp-nav-hr {
+	clear: both;
+	height: 1px;
+	margin-top: 10px;
+	background: url('/Stockhouse/images/horz-line.png') no-repeat center;
+}
+
+/*#endregion*/
+
+/*#region Company snapshot web part */
+
+.company-snapshot {
+	border-top: 5px solid #E6E7E8;
+	border-bottom: 5px solid #E6E7E8;
+	margin: 15px 0;
+	padding: 12px 0;
+}
+.company-snapshot .qmfield {
+	font-weight: bold;
+}
+.snapshot-table {
+	width: 460px;
+	border-style: hidden;
+}
+.snapshot-table tr {
+	border-style: dotted;
+	border-color: #aaa;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.snapshot-table tr td {
+	padding: 10px 0;
+	width: 50%;
+}
+
+/*#endregion*/
+
+/*#region Featured company web part */
+
+.featured-company {
+	margin: 8px 0;
+}
+.featured-company img {
+	margin-right: 15px;
+	margin-top: 7px;
+	padding: 1px;
+	border: 1px solid #D5D6D6;
+}
+.featured-company figcaption {
+	overflow: hidden;
+}
+.featured-company p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+/*#endregion*/
+
+/*#region Showcase Companies web part */
+
+.showcase-blurb {
+	font-size: 14px;
+	line-height: 21px;
+	padding-top: 10px;
+}
+.company-showcase {
+	padding-bottom: 10px;
+}
+.company-showcase h3 {
+	padding-bottom: 6px;
+}
+.company-showcase h3 span {
+	color: #e9911e;
+}
+.company-showcase hr {
+	padding: 20px 0 0 0;
+	margin: 0 0 25px 0;
+}
+.company-showcase-logo img {
+	display: block;
+	padding: 1px;
+	border: 1px solid #c9cacc;
+	margin-top: 3px;
+}
+.company-showcase-description {
+	font-size: 13px;
+	line-height: 19px;
+}
+.cs-toolbar {
+	padding: 10px 0 5px 0;
+}
+.btn-portfolio, 
+.btn-bullboard, 
+.btn-website, 
+.btn-follow, 
+.btn-mailing {
+	display: block;
+	float: left;
+	height: 24px;
+	vertical-align: middle;
+	margin-right: 30px;
+	line-height: 24px;
+	cursor: pointer;
+}
+.btn-mailing {
+	margin-right: 0;
+}
+.btn-portfolio span, 
+.btn-bullboard span, 
+.btn-website span,
+.btn-follow span, 
+.btn-mailing span {
+	display: block;
+	width: 24px;
+	height: 24px;
+	float: left;
+	background-image: url(/Stockhouse/Images/buttons-company-showcase.png);
+	background-repeat: no-repeat;
+	margin-right: 7px;
+}
+.btn-bullboard span {
+	background-position: -24px 0;
+}
+.btn-website span {
+	background-position: -120px 0;
+}
+.btn-follow span {
+	background-position: -48px 0;
+}
+.btn-mailing span {
+	background-position: -72px 0;
+}
+.btn-portfolio:hover span {
+	background-position: 0 -24px;
+}
+.btn-bullboard:hover span {
+	background-position: -24px -24px;
+}
+.btn-website:hover span {
+	background-position: -120px -24px;
+}
+.btn-follow:hover span {
+	background-position: -48px -24px;
+}
+.btn-mailing:hover span {
+	background-position: -72px -24px;
+}
+.btn-portfolio:active span {
+	background-position: 0 -48px;
+}
+.btn-bullboard:active span {
+	background-position: -24px -48px;
+}
+.btn-website:active span {
+	background-position: -120px -48px;
+}
+.btn-follow:active span {
+	background-position: -48px -48px;
+}
+.btn-mailing:active span {
+	background-position: -72px -48px;
+}
+.stock-bar {
+	padding-top: 10px;
+}
+.stock-bar .arrow {
+	display: block;
+	float: left;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+}
+.stock-bar .arrow-down, 
+.stock-bar .arrow-up, 
+.stock-bar .arrow-neutral {
+	float: left;
+	width: 14px;
+	height: 14px;
+	background: url('/Stockhouse/images/arrows-small.px.png') no-repeat;
+}
+.stock-bar .arrow-down {
+	background-position: -15px 0;
+}
+.stock-bar .arrow-up {
+	background-position: 0 0;
+}
+.stock-bar .arrow-neutral {
+	background-position: -30px 0;
+}
+.stock-bar .last-trade, .stock-bar .change, .stock-bar .change-percent {
+	display: block;
+	float: left;
+	margin-left: 15px;
+	line-height: 14px;
+}
+.stock-bar .last-trade {
+	margin-left: 10px;
+}
+.stock-bar .last-trade strong, 
+.stock-bar .change strong, 
+.stock-bar .change-percent strong {
+	font-weight: bold;
+}
+a.btn-enhanced-portfolio {
+	display: block;
+	width: 146px;
+	height: 24px;
+	float: right;
+	background-image: url(/Stockhouse/Images/buttons-company-showcase.png);
+	background-repeat: no-repeat;
+	background-position: 0 -72px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+a.btn-enhanced-portfolio:hover {
+	background-position: 0 -96px;
+}
+a.btn-enhanced-portfolio:active {
+	background-position: 0 -120px;
+}
+
+/*#endregion*/
+
+/*#region Companies Showcase filters */
+
+.showcase-sector-filter, 
+.showcase-subsector-filter {
+	display: block;
+	float: left;
+	position: relative;
+	width: 180px;
+	height: 33px;
+	z-index: 5;
+	margin: 0;
+	padding: 0;
+}
+.showcase-subsector-filter {
+	width: 212px;
+	z-index: 4;	
+}
+a.sc-container, 
+a.sc-sub-container {
+	display: block;
+	width: 151px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 21px;
+	border: 1px solid transparent;
+	padding: 5px 6px 5px 16px;
+	margin: 0;
+	background-color: #FFF;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+	white-space: nowrap;	
+}
+a.sc-container {
+	color: #000000;
+	z-index: 3;
+}
+a.sc-sub-container {
+	width: 183px;
+	z-index: 2;
+}
+a.sc-container:hover,
+a.sc-sub-container.active:hover {
+	border: 1px solid #ACADAE;
+}
+a.sc-sub-container.inactive {	
+	cursor: default;
+	color: #ACADAE;
+	z-index: 2;	
+}
+a.sc-sub-container.active {
+	border: 1px solid transparent;
+	border-bottom: none;	
+	cursor: pointer;
+	color: #000000;
+}
+a.sc-sub-container.active.no-bttm-border,
+ a.sc-sub-container.active.no-bttm-border:hover {
+	border: 1px solid #ACADAE;
+	border-bottom: none;
+}
+a.sc-container .sc-trigger, 
+a.sc-sub-container .sc-trigger {
+	text-indent: -9999px;
+	float: right;
+	display: block;
+	width: 21px;
+	height: 21px;
+	background: url('/Stockhouse/images/report-abuse.png') no-repeat -84px -3px;
+}
+a.sc-container:hover .sc-trigger {
+	background-position: -30px -3px;
+}
+.sc-filter-panel, .sc-filter-sub-panel {
+	display: none;
+	position: absolute;
+	background-color: #FFF;
+	left: 0;
+	top: 31px;
+	width: auto;
+	height: auto;
+	border: 1px solid #ACADAE;
+	z-index: 1;
+	overflow: visible;
+	font-size: 12px;
+	padding: 15px;
+}
+.sc-filter-panel td, 
+.sc-filter-sub-panel td {
+	padding-right: 10px;
+	white-space: nowrap;
+}
+a.no-bttm-border,
+a.no-bttm-border:hover {
+	border: 1px solid #ACADAE;
+	border-bottom:none;
+}
+.showcase-sector-filter .sc-sector-submit, 
+.showcase-subsector-filter .sc-sub-sector-submit {
+	width: 90px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-indent: -9999px;
+	overflow: hidden;
+	background-image: url(/Stockhouse/Images/buttons-company-showcase.png);
+	background-repeat: no-repeat;
+	background-position: -146px -72px;
+	cursor: pointer;
+}
+.showcase-sector-filter .sc-sector-submit:hover, 
+.showcase-subsector-filter .sc-sub-sector-submit:hover {
+	background-position: -146px -96px;
+	cursor: pointer;
+}
+.showcase-sector-filter .sc-sector-submit:active, 
+.showcase-subsector-filter .sc-sub-sector-submit:active {
+	background-position: -146px -120px;
+	cursor: pointer;
+}
+.selected-sector {
+	float: left;
+	width: 158px;
+	color: #44697D;
+	padding: 5px 0 5px 17px;
+}
+.selected-sub-sector {
+	float: left;
+	width: 187px;
+	color: #44697D;
+	padding: 5px 0 5px 21px;
+}
+
+/*#endregion*/
+
+/*#regionCompany quote module */
+.company-quote table {
+	border-collapse: separate;
+}
+.company-quote table,
+.company-quote tr,
+.company-quote td {
+	vertical-align: middle;
+}
+.company-quote table[align=center] {
+	margin-left: auto;
+	margin-right: auto;
+}
+.company-quote .qm_main, 
+.company-quote .qmpf_cycle1 {
+	color: #666;
+}
+.company-quote a {
+	color: #44697D !important;
+	text-decoration: none !important;
+}
+.company-quote a:hover {
+	color: #E6911E !important;
+}
+/*#endregion*/
+
+.company-news-header {
+	margin: 0 0 10px 0;
+}
+.company-news-item {
+	padding: 12px 0;
+	border-top: 1px dotted #ACADAE;
+}
+.company-news-item.first {
+	border: 0;
+}
+.company-news-item h3 {
+	line-height: 19px;
+	margin-bottom: 4px;
+}
+.company-news-item-source-date {
+	font-size: 12px;
+	color: #58595B;
+}
+
+/*#region Company Directory */
+.alphabet-filter {
+  margin-left: 11px;
+}
+.alphabet-filter td {
+  padding: 3px 4px;
+}
+.alphabet-filter td a {
+  color: #03202f;
+  font-size: 15px;
+}
+.alphabet-filter td a:hover, 
+.alphabet-filter td a.active-link {
+  color: #d47600;
+}
+.tbl-alphabet-filter {
+	
+}
+
+/*#endregion*/
+
+/*#region Join Mailing List Box*/
+.jml-container {
+	width: 280px;
+	border: 1px solid #44697d;
+	position: relative;
+	z-index: 999;
+	background-color: #FFF;
+	display: none;
+}
+.jml-container .jml-arrow {
+	width: 21px;
+	height: 33px;
+	background-image: url('/stockhouse/images/arrow-jml.png');
+	background-repeat: no-repeat;
+	z-index: 1000;
+	position: absolute;
+	top: 40px;
+	left: -21px;
+}
+.jml-container .jml-close {
+	width: 27px;
+	height: 27px;
+	background-image: url('/stockhouse/images/closetbn-white.png');
+	background-repeat: no-repeat;
+	z-index: 1000;
+	position: absolute;	
+	top: -14px;
+	right: -14px;
+	cursor: pointer;
+}
+.jml-panel {
+	padding: 15px 0 25px 15px;
+}
+.jml-panel .jml-row {
+	padding:5px 0 5px 0;
+}
+.jml-panel .jml-row input {
+	width: 244px;
+	margin: 0;
+	padding: 0;
+}
+.jml-panel .jml-valid-summary {
+	float: right;
+}
+.jml-panel .jml-error {
+	float: right;
+	margin-right: 15px;
+}
+.jml-panel .lbl-row {
+	padding-bottom: 3px;	
+}
+.jml-container .jml-panel .jml-btn {
+	width: 90px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-indent: -9999px;
+	overflow: hidden;
+	background-image: url(/Stockhouse/Images/buttons-company-showcase.png);
+	background-repeat: no-repeat;
+	background-position: -146px -72px;
+	float: right;
+	cursor: pointer;
+}
+.jml-container .jml-panel .jml-btn:hover{
+	background-position: -146px -96px;
+	cursor: pointer;
+}
+.jml-container .jml-panel .jml-btn:active {
+	background-position: -146px -120px;
+	cursor: pointer;
+}
+.jml-msg {
+	font-size: 13px;
+	line-height: 21px;
+	padding-right: 15px;
+}
+
+
+/*#endregion*/

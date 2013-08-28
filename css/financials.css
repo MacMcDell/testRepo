@@ -1,0 +1,1221 @@
+﻿/*** Commodities web part ***/
+.commodities .toggle {
+	width: 21px;
+	height: 21px;
+	text-align: left;
+	text-indent: -9999px;
+	direction: ltr;
+	background: url('/Stockhouse/images/report-abuse.png') no-repeat;
+	cursor: pointer;
+}
+.commodities .toggle.collapsed {
+	background-position: -56px -3px;
+}
+.commodities .toggle.collapsed:hover {
+	background-position: -2px -3px;
+}
+.commodities .toggle.expanded {
+	background-position: -56px -24px;
+}
+.commodities .toggle.expanded:hover {
+	background-position: -2px -24px;
+}
+/*** Custom markets web parts on the home page ***/
+.custom-markets {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.custom-markets .tab-content {
+	background-color: #F2F2F2;
+}
+.custom-markets .sponsor {
+	color: #000;
+	background-color: #D0D0D0;
+	text-align: center;
+	margin: 0 auto 10px auto;
+	line-height: 75px;
+	width: 300px;
+	height: 75px;
+}
+.custom-markets table {
+	width: 100%;
+	border-collapse: collapse;
+	border-style: hidden;
+	font-size: 14px;
+}
+.custom-markets table tr {
+	border-color: #ACADAE;
+	border-style: dotted;
+	border-width: 1px 0;
+}
+.custom-markets table tr .name {
+	padding-left: 12px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.custom-markets table tr .price {
+	text-align: right;
+}
+.custom-markets table tr .arrow {
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+	vertical-align: middle;
+	width: 10%;
+}
+.custom-markets table tr .change {
+	text-align: right;
+	padding-right: 12px;
+	font-weight: bold;
+	width: 20%;
+}
+.custom-markets .more {
+	margin-top: 4px;
+	padding: 5px 0;
+	text-align: right;
+	background-color: #fff;
+}
+/*** Custom watch web part ***/
+.custom-watch .qmmt_main {
+	border: 0;
+}
+.custom-watch .qmmt_text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: inherit;
+}
+.custom-watch .qmmt_header_bar {
+	display: none;
+}
+.custom-watch table {
+	padding: 0 !important;
+	border-collapse: collapse;
+	border-style: hidden;
+}
+.custom-watch table.qmmt_main table tr {
+	border-top: 1px dotted #ACADAE;
+}
+.custom-watch .qmmt_cycle td, .custom-watch .qmmt_main td, .custom-watch .qmmt_head th {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+.custom-watch tr.qmmt_cycle:hover td, .custom-watch tr.qmmt_main:hover td {
+	font-weight: bold;
+	background-color: #f1f1f1;
+}
+.custom-watch table .qmmt_head {
+	border-style: hidden;
+}
+.custom-watch .qmmt_cycle {
+	background-color: transparent;
+}
+.custom-watch .qmmt_head .qmmt_name {
+	padding-left: 0 !important;
+}
+.custom-watch .qmmt_cycle a, .custom-watch .qmmt_main a {
+	margin-left: -3px;
+}
+.custom-watch a {
+	color: #44697D !important;
+}
+.custom-watch a:hover {
+	color: #E6911E !important;
+}
+.custom-watch .qmmt_nonrt_text {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: bold;
+	color: #465665;
+}
+.custom-watch .qmmt_text_down {
+	color: #B71234;
+}
+.custom-watch .qmmt_text_up {
+	color: #009444;
+}
+/*** flags for the currencies page ***/
+.custom-watch .currency-cad {
+	background: url('/Stockhouse/images/flags/cdn-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+.custom-watch .currency-eur {
+	background: url('/Stockhouse/images/flags/euro-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+.custom-watch .currency-gbr {
+	background: url('/Stockhouse/images/flags/british-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+.custom-watch .currency-jpn {
+	background: url('/Stockhouse/images/flags/japan-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+.custom-watch .currency-mex {
+	background: url('/Stockhouse/images/flags/mex-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+.custom-watch .currency-aud {
+	background: url('/Stockhouse/images/flags/aus-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+.custom-watch .currency-sws {
+	background: url('/Stockhouse/images/flags/swiss-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+.custom-watch .currency-brz {
+	background: url('/Stockhouse/images/flags/brazil-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+.custom-watch .currency-rus {
+	background: url('/Stockhouse/images/flags/russia-flag.png') no-repeat;
+	padding: 5px 0 5px 32px;
+	line-height: 24px;
+}
+/*** Dow Jones web part ***/
+.dow-jones {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.dow-jones .qmmt_main {
+	border: 0;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+.dow-jones .qmmt_main .qmmt_header_bar {
+	display: none;
+}
+.dow-jones #enhancedCustomWatchTable {
+	border-collapse: collapse;
+	border-style: hidden;
+	padding: 0 !important;
+}
+.dow-jones #enhancedCustomWatchTable tr:hover td {
+	font-weight: bold;
+	background-color: #f1f1f1;
+}
+.dow-jones #enhancedCustomWatchTable th {
+	border-style: hidden;
+	padding: 10px 0 2px !important;
+	text-decoration: none !important;
+}
+.dow-jones #enhancedCustomWatchTable td {
+	border-top: 1px dotted #ACADAE;
+	border-bottom: 1px dotted #ACADAE;
+	padding: 3px 0 2px !important;
+}
+.dow-jones .qmmt_text_up {
+	color: #009444;
+}
+.dow-jones .qmmt_text_down {
+	color: #B71234;
+}
+.dow-jones .qmmt_text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding: 0 !important;
+}
+.dow-jones a.qmmt {
+	color: #44697D;
+}
+.dow-jones a.qmmt:hover {
+	color: #E6911E;
+	text-decoration: underline !important;
+}
+.dow-jones .qmmt_cycle {
+	background-color: transparent;
+}
+.dow-jones .qmmt_realtime_text {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 11px;
+	color: #008000;
+}
+/*** Market charts web part ***/
+.market-charts {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.market-charts .chart-margin-right {
+	margin-right: 10px;
+}
+/*** Market movers web part ***/
+.market-movers .qmmt_main {
+	border: 0;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+.market-movers #qmmt_scalingMarketStatsTable {
+	border-collapse: collapse;
+	border-style: hidden;
+	padding: 0 !important;
+}
+.market-movers #qmmt_scalingMarketStatsTable th {
+	border-style: hidden;
+	padding-top: 10px !important;
+	padding-bottom: 2px !important;
+	text-decoration: none !important;
+}
+.market-movers #qmmt_scalingMarketStatsTable .qmmt_scalingStats_name {
+	width: 170px;
+}
+.market-movers #qmmt_scalingMarketStatsTable .qmmt_scalingStats_symbol {
+	width: 75px;
+}
+.market-movers #qmmt_scalingMarketStatsTable .qmmt_scalingStats_last {
+	width: 40px;
+}
+.market-movers .qmmt_scalingStats_last .qmmt_sortHeaderText {
+	display: none;
+}
+.market-movers .qmmt_scalingStats_last .qmmt_headerContainer:after {
+	content: 'Last';
+}
+.market-movers #qmmt_scalingMarketStatsTable .qmmt_scalingStats_change {
+	width: 38px;
+}
+.market-movers #qmmt_scalingMarketStatsTable .qmmt_scalingStats_percentChange {
+	width: 58px;
+}
+.market-movers #qmmt_scalingMarketStatsTable .qmmt_scalingStats_volume {
+	width: 56px !important;
+}
+.market-movers #qmmt_scalingMarketStatsTable td {
+	border-top: 1px dotted #ACADAE;
+	border-bottom: 1px dotted #ACADAE;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.market-movers .qmmt_header_bar {
+	background-color: #fff;
+	border: 0;
+	padding: 0 !important;
+}
+.market-movers .qmmt_header_bar .qmmt_header_text {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 0 !important;
+	color: #03202F;
+}
+.market-movers .qmmt_header_bar .qmmt_header_text .qmmt_header_text {
+	font-size: 12px;
+	color: #58595B;
+}
+.market-movers .qmmt_header_bar td {
+	width: 33%;
+}
+.market-movers .qmmt_header_bar td > div {
+	text-align: left;
+}
+.market-movers .toggle {
+	float: right;
+	width: 21px;
+	height: 21px;
+	text-align: left;
+	text-indent: -9999px;
+	direction: ltr;
+	background: url('/Stockhouse/images/report-abuse.png') no-repeat;
+	cursor: pointer;
+}
+.market-movers .toggle.collapsed {
+	background-position: -56px -3px;
+}
+.market-movers .toggle.collapsed:hover {
+	background-position: -2px -3px;
+}
+.market-movers .toggle.expanded {
+	background-position: -56px -24px;
+}
+.market-movers .toggle.expanded:hover {
+	background-position: -2px -24px;
+}
+.market-movers img[src*="qm_down.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/down-14px.png') no-repeat;
+}
+.market-movers img[src*="qm_nc.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/equal-14px.png') no-repeat;
+}
+.market-movers img[src*="qm_up.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/up-14px.png') no-repeat;
+}
+.market-movers .qmmt_text_up {
+	color: #009444;
+}
+.market-movers .qmmt_text_down {
+	color: #B71234;
+}
+.market-movers .qmmt_text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+}
+.market-movers a.qmmt {
+	color: #44697D;
+	font-weight: normal;
+}
+.market-movers .qmmt_cycle {
+	background-color: transparent;
+}
+.market-movers #qmmt_scalingMarketStatsTable tr:hover td {
+	font-weight: bold !important;
+	background-color: #f1f1f1;
+}
+.market-movers #qmmt_scalingMarketStatsTable tr:hover a {
+	font-weight: bold !important;
+	color: #44697D;
+}
+/*** Mutual funds ***/
+.mutual-funds .qm_heading_text, .mutual-funds .qm_maintext {
+	font-family: Arial, sans-serif;
+}
+.mutual-funds .qm_text_up {
+	color: #009444;
+}
+.mutual-funds .qm_text_down {
+	color: #B71234;
+}
+.mutual-funds .qm_nonrt_text {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #465665;
+	font-style: italic;
+}
+.mutual-funds .qm_heading_bar {
+	background-color: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px dotted #ACADAE;
+	margin: 0 !important;
+	padding: 10px 0 !important;
+}
+.mutual-funds .qm_heading_bar.collapsed {
+	border-bottom: 5px solid #D5D6D6;
+}
+.mutual-funds .qm_section_header .qm_country_select {
+	display: none;
+}
+.mutual-funds .qm_section_header td .qm_heading_text {
+	float: none !important;
+	text-align: left !important;
+	margin-right: 20px !important;
+}
+.mutual-funds .qm_section_header td .qm_heading_text .qm_ETFOverviewDate {
+	font-size: 12px;
+	color: #58595B;
+}
+.mutual-funds .qm_section_header td .qm_heading_text input {
+	position: relative;
+	top: 1px;
+}
+.mutual-funds img[src*="usa-etf.gif"] {
+	width: 0;
+	height: 0;
+	background: url('/Stockhouse/images/flags/us-flag.png') no-repeat;
+	padding: 12px 13px;
+	margin: 0 6px 0 2px;
+	position: relative;
+	top: 6px;
+}
+.mutual-funds img[src*="cad-etf.gif"] {
+	width: 0;
+	height: 0;
+	background: url('/Stockhouse/images/flags/cdn-flag.png') no-repeat;
+	padding: 12px 13px;
+	margin: 0 6px 0 2px;
+	position: relative;
+	top: 6px;
+}
+.mutual-funds .toggle {
+	float: right;
+	width: 21px;
+	height: 21px;
+	text-align: left;
+	text-indent: -9999px;
+	direction: ltr;
+	background: url('/Stockhouse/images/report-abuse.png') no-repeat;
+	cursor: pointer;
+}
+.mutual-funds .toggle.collapsed {
+	background-position: -56px -3px;
+}
+.mutual-funds .toggle.collapsed:hover {
+	background-position: -2px -3px;
+}
+.mutual-funds .toggle.expanded {
+	background-position: -56px -24px;
+}
+.mutual-funds .toggle.expanded:hover {
+	background-position: -2px -24px;
+}
+.mutual-funds .qm_section_header td {
+	padding: 0;
+}
+.mutual-funds .qm_maintext {
+	padding: 0 !important;
+}
+.mutual-funds .qm_maintext .qm_heading_text > span {
+	color: #03202F;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 21px;
+}
+.mutual-funds .qm_maintext .qm_heading_bar .qm_heading_text {
+	width: 85%;
+}
+.mutual-funds .NavWrapper {
+	margin: 0;
+}
+.mutual-funds .ETFNaviagtor {
+	text-decoration: none;
+}
+.mutual-funds .ETFNaviagtor:hover {
+	text-decoration: underline;
+}
+.mutual-funds .NavWrapper .point {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #44697D;
+}
+.mutual-funds .NavWrapper .point:hover {
+	color: #E6911E;
+}
+.mutual-funds #moreDropDown {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+.mutual-funds .qm_full_name {
+	padding-left: 0 !important;
+}
+.mutual-funds .qm_cycle {
+	background-color: transparent;
+}
+.mutual-funds .qm_thead .qm_symbol {
+	text-align: center !important;
+}
+.mutual-funds tbody .qm_symbol {
+	text-align: right !important;
+}
+.mutual-funds tbody .qm_symbol a {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #44697D;
+}
+.mutual-funds tbody .qm_symbol a:hover {
+	color: #E6911E;
+	text-decoration: underline !important;
+}
+.mutual-funds #ETF_table_best, .mutual-funds #ETF_table_worst, .mutual-funds #ETF_table_52_weeks {
+	border-bottom: 5px solid #D5D6D6;
+}
+.mutual-funds .qm_data {
+	border-collapse: collapse;
+}
+.mutual-funds .qm_data .qm_thead {
+	border-style: hidden !important;
+}
+.mutual-funds .qm_data th {
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none !important;
+}
+.mutual-funds .qm_data td {
+	font-size: 12px;
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+}
+.mutual-funds .qm_data .qm_main, .mutual-funds .qm_data .qm_cycle {
+	vertical-align: top;
+	border-top: 1px dotted #ACADAE;
+}
+.mutual-funds .qm_data tr.qm_main:hover td, .mutual-funds .qm_data tr.qm_cycle:hover td, .mutual-funds .qm_data tr.qm_main:hover td a, .mutual-funds .qm_data tr.qm_cycle:hover td a {
+	font-weight: bold;
+	background-color: #f1f1f1;
+}
+.mutual-funds .moreSpanStyle {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #00759A;
+	font-weight: bold;
+	margin: 7px 0;
+	cursor: pointer;
+}
+.mutual-funds .moreSpanStyle:hover {
+	text-decoration: underline;
+}
+.mutual-funds .floatRightSpan {
+	float: right;
+}
+.mutual-funds .qm_inactivebutton {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	background-color: transparent;
+	cursor: pointer !important;
+	border: 0;
+	color: #44697D;
+}
+.mutual-funds .qm_inactivebutton:hover {
+	text-decoration: underline;
+}
+.mutual-funds .qm_activebutton {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	background-color: #E6911E;
+	border: 0;
+	color: white;
+}
+.mutual-funds .qm-detailed-quote {
+	border: 0;
+}
+.mutual-funds .qm-quote-data-tiny {
+	border-collapse: collapse;
+	border-style: hidden;
+}
+.mutual-funds .qm-quote-data-tiny .qm-quote-data-item {
+	border: 1px dotted #ACADAE;
+	font-family: Arial, sans-serif;
+}
+.mutual-funds .qm-quote-data-tiny .qm-quote-data-item .qm_heading_bar {
+	border: 0;
+}
+.mutual-funds a.qm {
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	color: #44697D;
+}
+.mutual-funds a.qm:hover {
+	font-family: Arial, sans-serif;
+	color: #E6911E;
+}
+/*** Quote module web part ***/
+.quote-module .qm_heading_bar {
+	display: none;
+}
+.quote-module .qm_maintext, .quote-module .qm_cycle {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+.quote-module #market_mover .qm_heading_bar {
+	display: table-cell;
+	border: 0;
+	background-color: transparent;
+	padding-left: 0;
+	padding-right: 0;
+}
+.quote-module .qm_realtime_text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	color: #009444;
+}
+.quote-module #market_mover .qm_heading_bar .qm_heading_text {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #03202F;
+	padding-top: 7px;
+	border-top: 5px solid #D5D6D6;
+}
+.quote-module table {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.quote-module div[align="center"] {
+	text-align: left;
+	padding-top: 7px;
+	padding-bottom: 4px;
+}
+.quote-module #market_mover {
+	border-collapse: collapse;
+}
+.quote-module b {
+	font-weight: normal;
+}
+.quote-module .qm_cycle {
+	background-color: transparent;
+}
+.quote-module td.qm_cycle {
+	border-style: hidden;
+}
+.quote-module .qm_maintext td, .quote-module .qm_cycle td {
+	border-top: 1px dotted #ACADAE;
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+}
+.quote-module .qm_maintext:hover td, .quote-module .qm_cycle:hover td {
+	font-weight: bold;
+	background-color: #f1f1f1;
+}
+.quote-module img[src*="qm_down.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/down-14px.png') no-repeat;
+}
+.market-movers img[src*="qm_nc.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/equal-14px.png') no-repeat;
+}
+.quote-module img[src*="qm_up.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/up-14px.png') no-repeat;
+}
+/*** Styles for the QuoteModule web part on the Markets hub page ***/
+.show-markets .qm_maintext {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+.show-markets .qm_marketIndices_tab .qm_maintext .qm_heading_text {
+	padding-left: 0 !important;
+}
+.show-markets .qm_marketIndices_tab .qm_maintext .qm_main {
+	text-align: left;
+}
+.show-markets .qm_marketIndices_tab #dgraph {
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+.show-markets .qm_marketIndices_tab > tbody > tr:nth-child(3) > td, .show-markets .qm_marketIndices_tab > tbody > tr:nth-child(4) > td {
+	border-top: 5px solid #D5D6D6;
+	padding-top: 2px;
+}
+.show-markets .qm_marketIndices_tab > tbody > tr:nth-child(6) > td, .show-markets .qm_marketMovers_tab > tbody > tr:nth-child(1) > td {
+	border-top: 5px solid #D5D6D6;
+	padding-top: 8px;
+}
+.show-markets .qm_marketIndices_tab .qm_heading_bar .qm_heading_text, .show-markets .qm_marketMovers_tab .qm_heading_bar .qm_heading_text {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #03202F;
+}
+/* hidden elements that will be removed by jQuery */
+.show-markets .qm_marketIndices_tab #qmDropDownWrapper, .show-markets .qm_marketIndices_tab > tbody > tr:nth-child(6) .qm_heading_text:nth-child(2) {
+	display: none;
+}
+.show-markets .qm_marketIndices_tab table {
+	border-collapse: collapse;
+	border-style: hidden;
+}
+.show-markets th {
+	border-style: hidden;
+}
+.show-markets .qm_cycle td {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	border-bottom: 1px dotted #ACADAE;
+	border-top: 1px dotted #ACADAE;
+}
+.show-markets .toggle {
+	float: right;
+	width: 21px;
+	height: 21px;
+	text-align: left;
+	text-indent: -9999px;
+	direction: ltr;
+	background: url('/Stockhouse/images/report-abuse.png') no-repeat;
+	cursor: pointer;
+}
+.show-markets .toggle.collapsed {
+	background-position: -56px -3px;
+}
+.show-markets .toggle.collapsed:hover {
+	background-position: -2px -3px;
+}
+.show-markets .toggle.expanded {
+	background-position: -56px -24px;
+}
+.show-markets .toggle.expanded:hover {
+	background-position: -2px -24px;
+}
+.show-markets img[src*="qm_down.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/down-14px.png') no-repeat;
+}
+.show-markets img[src*="qm_nc.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/equal-14px.png') no-repeat;
+}
+.show-markets img[src*="qm_up.gif"] {
+	width: 0;
+	height: 0;
+	padding: 7px;
+	background: url('/Stockhouse/images/up-14px.png') no-repeat;
+}
+/*** Stock screener web part ***/
+.screener-module table.qmsm_header {
+	display: none;
+}
+.screener-module .qmsm_header {
+	background-color: transparent;
+	border: 0;
+	padding-left: 0;
+}
+.screener-module .qmsm_presetScreens_link a, .screener-module .qmsm_help_link a {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #44697D;
+}
+.screener-module .qmsm_presetScreens_link a:hover, .screener-module .qmsm_help_link a:hover {
+	color: #E6911E;
+}
+.screener-module .qmsm_cell, .screener-module .qmsm_header, .screener-module .qmsm_linkDivider_text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+/* todo: remove this when QuoteMedia fixes it */
+.screener-module .qmsm_presetScreens_link, .screener-module .qmsm_linkDivider_text {
+	display: none;
+}
+.screener-module #tableFilterHeader {
+	border-bottom: 1px dotted #ACADAE;
+}
+.screener-module #tableFilterHeader .qmsm_cell {
+	padding: 3px;
+}
+.screener-module #tableFilter {
+	border: 0;
+	border-style: hidden;
+	margin-top: 14px !important;
+}
+.screener-module #tableFilter th {
+	border-style: hidden;
+}
+.screener-module #tableFilter td {
+	border-left: 0;
+	border-right: 0;
+	border-style: dotted;
+	border-color: #ACADAE;
+}
+.screener-module #tableFilter .qmsm_cell {
+	padding: 5px;
+}
+.screener-module .qmsm_searchOptions_text, .screener-module .qmsm_searchResults_text {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #03202F;
+	padding-left: 0 !important;
+}
+.screener-module #tableResult .qmsm_cell {
+	padding-top: 12px !important;
+}
+.screener-module .qmsm_searchMessage_text, .screener-module .qmsm_viewTable_text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+.screener-module #buttonFilter div[align="center"] {
+	text-align: right;
+}
+.screener-module #buttonFilter input {
+	font-weight: normal !important;
+}
+.screener-module .qmsm_nonrt_text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #58595B;
+	font-style: normal;
+	font-weight: normal;
+}
+.screener-module .qmsm_cell div[align="center"] {
+	text-align: left;
+}
+.screener-module #tableResult {
+	border-top: 5px solid #D5D6D6;
+	padding-top: 10px;
+}
+.screener-module #tableResult th {
+	padding-top: 12px;
+}
+.screener-module .qmsm_filterResultHeaderRow {
+	vertical-align: bottom;
+}
+.screener-module .qmsm_filterResultHeaderRow .qmsm_header_text {
+	text-decoration: none;
+	font-weight: bold;
+}
+/*** result table ***/
+.screener-module #qmsm-tbl-container {
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+.screener-module .qmsm_result {
+	border-style: hidden;
+}
+.screener-module .qmsm_result .qmsm_cycle1, .screener-module .qmsm_result .qmsm_cycle2 {
+	background-color: transparent;
+	border: 0 !important;
+}
+.screener-module .qmsm_result .qmsm_cycle1:hover td, .screener-module .qmsm_result .qmsm_cycle2:hover td {
+	font-weight: bold;
+	background-color: #f1f1f1;
+}
+.screener-module .qmsm_result .qmsm_cell, .screener-module .qmsm_result .qmsm_header_text {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+.screener-module .qmsm_result .qmsm_cell, .screener-module .qmsm_result .qmsm_header {
+	border-left: 0 !important;
+	border-right: 0 !important;
+	border-top: 1px dotted #ACADAE !important;
+	border-bottom: 1px dotted #ACADAE !important;
+}
+.screener-module a.qmsm {
+	color: #44697D !important;
+	text-decoration: none !important;
+}
+.screener-module a.qmsm:hover {
+	color: #E6911E !important;
+	text-decoration: underline !important;
+}
+/* Symbol Lookup */
+#qm-lookup .qm_heading_text {
+	font-size: 16px;
+	font-weight: bold;
+	color: #44697d;
+}
+#qm-lookup table.qm_search_entry {
+	width: 620px;
+	overflow: hidden;
+}
+#qm-lookup .qm_search_entry td {
+	font-size: 13px;
+	font-weight: bold;
+}
+#qm-lookup .qm_heading_text .qm {
+	display: none;
+}
+#qm-lookup #searchBy, #qm-lookup #marketId {
+	width: 130px;
+	margin: 0;
+	padding: 0;
+}
+#qm-lookup #searchString {
+	width: 200px;
+}
+#qm-lookup #yourSearch {
+	width: 280px;
+	display: block;
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+#qm-lookup .qm_maintext {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+}
+#qm-lookup #results-table {
+	width: 620px;
+	border-top: 1px dotted #acadae;
+}
+#qm-lookup #results-table td {
+	padding: 2px 0 2px 0;
+}
+#qm-lookup .qm_search_count {
+	padding-top: 10px;
+	color: #44697d;
+	font-size: 13px;
+}
+#qm-lookup #results-table {
+	width: 620px !important;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.portfolio-module h1 {
+	border-bottom:1px dotted #AAA;
+	margin-top:10px;
+}
+.portfolio-module .qmpf_navFuncSepHelpLogout,
+.portfolio-module .qmpf_navFuncLogout, 
+.watchlist-module .qmpf_navFuncSepHelpLogout,
+.watchlist-module .qmpf_navFuncLogout {
+	display:none;
+}
+.portfolio-module .qmpf_activetab,
+.portfolio-module .qmpf_inactivetab,
+.watchlist-module .qmpf_activetab,
+.watchlist-module .qmpf_inactivetab {
+	width:16%;
+}
+.portfolio-module {
+	padding-top: 20px;
+}
+.portfolio-default {
+	margin: 40px 0 50px 0; 
+}
+.portfolio-default h4 {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.portfolio-default h2 {
+	margin-bottom:10px;
+	font-size: 25px;
+	line-height: normal;
+	font-weight: normal;
+}
+.portfolio-default p {
+	font-size: 13px; 
+	line-height: 20px;	
+}
+.portfolio-default p strong {
+	font-weight: bold; 
+	color:#58595B;
+}
+.portfolio-default ul {
+	 margin:30px 0 30px 15px;
+}
+.portfolio-default ul li {
+	font-size: 12px; 
+	line-height: 19px;
+	background-image: url('/Stockhouse/images/bullet-orange.png');
+	background-repeat: no-repeat;
+	background-position:0 7px;
+	padding-left: 15px;
+	color: #58595b;
+}
+.portfolio-signup-btn {
+	cursor:pointer;
+	background-image:url('/Stockhouse/Images/portfolio-signup.png');
+	width:442px;
+	height:34px;
+	border:0;
+}
+
+/* Promo pages */
+#tryTt, #tt-subscribe {
+	display: block;
+	width: 267px;
+	height: 43px;
+	background: url("/stockhouse/images/tt-btns.png") no-repeat 0 0;
+}
+#tryTt:hover {
+	background-position: 0 -43px;
+}
+#tryTt span, #tt-subscribe span {
+	position: absolute;
+	top: -999em;
+}
+#tt-subscribe {
+	background-position: 0 -86px;
+}
+#tt-subscribe:hover {
+	background-position: 0 -129px;
+}
+.gradient {
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmViZDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #FDE6C9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#FDE6C9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#FDE6C9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#FDE6C9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#FDE6C9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#FDE6C9 100%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffebd2',GradientType=0 );*/ /* IE6-8 */
+}
+.gr-gradient {
+	background: #819F3A; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzlmYWQzOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1ZThmM2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #9fad38 0%, #5e8f3a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#9fad38), color-stop(100%,#5e8f3a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #9fad38 0%,#5e8f3a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #9fad38 0%,#5e8f3a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #9fad38 0%,#5e8f3a 100%); /* IE10+ */
+	background: linear-gradient(to right,  #9fad38 0%,#5e8f3a 100%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fad38', endColorstr='#5e8f3a',GradientType=1 );*/ /* IE6-8 */
+}
+ul.bullet-green {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0 0 0;
+}
+ul.bullet-green li {
+	list-style-type: none;
+	background-image: url('/stockhouse/images/bullet-green.png');
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding-left: 14px;
+	color: #000000;
+	font-size: 16px;
+	padding-bottom: 8px;
+	line-height:18px;
+}
+#trySs, #ss-subscribe {
+	display: block;
+	width: 267px;
+	height: 43px;
+	background: url("/stockhouse/images/ssd-btns.png") no-repeat 0 0;
+}
+#trySs:hover {
+	background-position: 0 -43px;
+}
+#trySs span, #ss-subscribe span {
+	position: absolute;
+	top: -999em;
+}
+#ss-subscribe {
+	background-position: 0 -86px;
+}
+#ss-subscribe:hover {
+	background-position: 0 -129px;
+}
+.module-content {
+	margin:0 auto;
+	width: 880px;
+	margin-top: 20px;
+	color: #666666;
+	font-size: 15px;
+}
+ul.bullet-blue {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0 0 0;
+}
+ul.bullet-blue li {
+	list-style-type: none;
+	background-image: url('/stockhouse/images/bullet-blue.png');
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding-left: 14px;
+	color: #000000;
+	font-size: 16px;
+	padding-bottom: 8px;
+	line-height:18px;
+}
+.blue-gradient {
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiY2Q2ZGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #bcd6de 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#bcd6de)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#bcd6de 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#bcd6de 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#bcd6de 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#bcd6de 100%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bcd6de',GradientType=0 ); */ /* IE6-8 */
+}
+.dark-blue-gradient {
+	background: #518295;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVkOWFhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NTZhN2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #5d9aac 0%, #456a7e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#5d9aac), color-stop(100%,#456a7e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #5d9aac 0%,#456a7e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #5d9aac 0%,#456a7e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #5d9aac 0%,#456a7e 100%); /* IE10+ */
+	background: linear-gradient(to right,  #5d9aac 0%,#456a7e 100%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d9aac', endColorstr='#456a7e',GradientType=1 ); */ /* IE6-8 */
+}
+/*#region Public portfolio web part */
+
+.public-portfolio img[src*="qm_down.gif"] {
+width: 0;
+height: 0;
+padding: 8px;
+	margin-left: 8px;
+background: url('/Stockhouse/images/down-14px.png') no-repeat;
+}
+.public-portfolio img[src*="qm_nc.gif"] {
+width: 0;
+height: 0;
+padding: 8px;
+	margin-left: 8px;
+background: url('/Stockhouse/images/equal-14px.png') no-repeat;
+}
+.public-portfolio img[src*="qm_up.gif"] {
+width: 0;
+height: 0;
+padding: 8px;
+	margin-left: 8px;
+background: url('/Stockhouse/images/up-14px.png') no-repeat;
+}
+
+.public-portfolio .edit {
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 5px;
+}
+.public-portfolio table {
+	width: 100%;
+	margin-top: 12px;
+	border-style: hidden;
+}
+.public-portfolio table th {
+	font-weight: bold;
+	text-align: right;
+	font-size: 12px;
+	padding-bottom: 4px;
+}
+.public-portfolio table th.company-heading {
+	text-align: left;
+}
+.public-portfolio table a {
+	font-weight: normal;
+}
+.public-portfolio table td {
+	border-bottom: 1px dotted #ACADAE;
+	padding: 5px 0;
+	font-size: 12px;
+	line-height: 14px;
+}
+.public-portfolio table table tr:hover td {
+	font-weight: bold;
+	background-color: #F1F1F1;
+}
+
+.public-portfolio table table tr:hover td a {
+	font-weight: bold;
+	color: #44697D;
+}
+
+
+.public-portfolio table td.symbol,
+.public-portfolio table td.last,
+.public-portfolio table td.arrow,
+.public-portfolio table td.change,
+.public-portfolio table td.percent-change,
+.public-portfolio table td.volume {
+	text-align: right;
+	width: 12%;
+}
+.public-portfolio table td.arrow img {
+	vertical-align: middle;
+}
+
+/*#endregion*/

@@ -1,0 +1,309 @@
+﻿.qm_main, .qmpf_cycle1
+{
+	background-color: #FFFFFF;
+	font: 11px Tahoma;
+	color: #666;
+}
+.qm_maintext, .qmmt_text, .qmpf_text, #qmpm_footer_table .qmpf_navtext, .qmpf_maintext, .qm-account-text, .qm-account-subtitle, .qm-account-copyright-text, .qmpf_notLoggedIn_message, .qm-agreements-notice div, .qmam-tool-wrapper, .qmam-header-controls
+{
+	font: 11px Tahoma;
+	color: #666;
+}
+a.qm, a.qmmt, a.qmsm, a.qmsm_menu, a.qmsm_nav, a.qmpf, a.qmpf_nav, a.qmpf_text, .qmpf_cell a, .qmpf_text a, .qmpf_filings_nav_wrapper a, a.qm-account-copyright-link, .qm-account-nav-text a, .qm-account-link a, .qmpf_notLoggedIn_helpLink a, a.qm-account-message-link, .qm-account-text a, a.qm-unsigned-link, a.qmam-add-lower-control, a.qmam-lower-add-control, a.qmam-list-control, a.qmam-settings-control, a.qmam-add-control, a.qmam-symbol-lookup {
+	color: #3A6E8F;
+	font: 11px Tahoma;
+}
+a.qm:visited, a.qmmt:visited, a.qmsm:visited, a.qmsm_menu:visited, a.qmsm_nav:visited, a.qmpf:visited, a.qmpf_nav:visited, a.qmpf_text:visited, .qmpf_cell a:visited, .qmpf_text a:visited, .qmpf_filings_nav_wrapper a:visited, a.qm-account-copyright-link:visited, .qm-account-nav-text a:visited, .qm-account-link a:visited, .qmpf_notLoggedIn_helpLink a:visited, a.qm-account-message-link:visited, .qm-account-text a:visited, a.qm-unsigned-link:visited, a.qmam-add-lower-control:visited, a.qmam-lower-add-control:visited, a.qmam-list-control:visited, a.qmam-settings-control:visited, a.qmam-add-control:visited, a.qmam-symbol-lookup:visited {
+	color: #3A6E8F;
+	font: 11px Tahoma;
+}
+a.qm:hover, a.qmmt:hover, a.qmsm:hover, a.qmsm_menu:hover, a.qmsm_nav:hover, a.qmpf:hover, a.qmpf_nav:hover, a.qmpf_text:hover, .qmpf_cell a:hover, .qmpf_text a:hover, .qmpf_filings_nav_wrapper a:hover, a.qm-account-copyright-link:hover, .qm-account-nav-text a:hover, .qm-account-link a:hover, .qmpf_notLoggedIn_helpLink a:hover, a.qm-account-message-link:hover, .qm-account-text a:hover, a.qm-unsigned-link:hover, a.qmam-add-lower-control:hover, a.qmam-lower-add-control:hover, a.qmam-list-control:hover, a.qmam-settings-control:hover, a.qmam-add-control:hover, a.qmam-symbol-lookup:hover {
+	color: #000;
+	font: 11px Tahoma;
+	text-decoration:none;
+}		
+
+.ui-datepicker {
+font-size:10px !important;
+}
+
+.qmlm_screener_filterResultHeader span  { 
+	color:#fff !important; 
+} 
+{* Buttons *} 
+.qm_inactivebutton, .qmpf_inactivetab, .qmpf_tab
+{
+	background-color: #fff;
+	font: 10px Tahoma;
+	color: #668a9c;
+	border-color: #fff;
+	font-weight: normal;
+}
+.qm_activebutton, .qmpf_activetab, .qmpf_tabactive
+{
+	background-color: #f1a318;
+	font: 10px Tahoma;
+	color: #fff;
+	border-color: #f1a318;
+	font-weight: normal;
+	text-decoration: none;
+}
+.qmpf_activetab div, .qmpf_inactivetab {
+	font-size: 11px;
+}
+.qmpf_inactivetab:hover {
+	background-color: #f1a318;
+	color: #fff;
+}
+{* SubNav Heading Bar *}
+.qm_subnav_heading_bar 
+{
+	border-color: #e3e3e3;
+}
+.qm_subnav_inactivebutton 
+{ 
+	font: 10px Tahoma;
+	color: #666;
+}
+.qm_subnav_activebutton
+{
+	font: 10px Tahoma;
+	color: #666;
+}
+a.qm_subnav_inactivebutton, a.qm_subnav_inactivebutton:visited
+{
+	color: #dee1e5;
+	
+}
+a.qm_subnav_activebutton , a.qm_subnav_activebutton:visited
+{
+	color: #dee1e5;
+	font-weight:bold;
+}
+{* Heading Bars *} 
+.qm_heading_bar, .qmsm_header, .qmmt_header_bar, .qmpf_header, .qmpf_cell_header, .qm-account-title, .qmam-header-bar
+{
+	background-color: #dee1e5;
+	border-color: #dee1e5;
+	font: bold 13px Tahoma;
+}
+.qm_heading_text, .qmsm_header, .qm_chart h3, .qmmt_header_text, .qmam-header-text
+{
+	font: bold 13px Tahoma;
+	color: #000;
+}
+.qm_heading_bar a, .qm_heading_bar a:visited, a.qmsm_header, a:visited.qmsm_header, a:hover.qmsm_header, a.qmsm_header_text, a:visited.qmsm_header_text 
+{ 
+	color: #3A6E8F;
+}
+.qm_cycle, .qmmt_cycle, .qmpf_cycle2, .qmpf_multicharts_border
+{
+	background-color: #eff3f7;
+	border-color: #eff3f7;
+	font: 11px Tahoma;
+	color: #666;
+}
+.qmpf_summaryblock, .qm-account-nav-wrapper, .qm-account-link {
+	background-color: #eff3f7;
+	border: none;
+}
+.qm_cycleup
+{
+	background-color: #eeffee;
+	font: 11px Tahoma;
+	color: #666;
+}
+.qm_cycledown
+{
+	background-color: #ffeeee;
+	font: 11px Tahoma;
+	color: #666;
+}
+
+
+{* Level II Alternating Cycles *}  
+.qm_L2_cycle1 {
+	font: 11px Tahoma;              
+	background-color:           #FFFEEF; }
+.qm_L2_cycle2 {     
+	font: 11px Tahoma;                     
+	background-color:           #F0F7DE; }
+.qm_L2_cycle3 {     
+	font: 11px Tahoma;                     
+	background-color:           #F4F0E8; }
+.qm_L2_cycle4 {       
+	font: 11px Tahoma;                     
+	background-color:           #E0E0F7; }
+.qm_L2_cycle5 {       
+	font: 11px Tahoma;                    
+	background-color:           #F7F7F7; }
+.qm_L2_cycle6 {         
+	font: 11px Tahoma;                 
+	background-color:           #F5E8E8; }
+.qm_L2_cycle7 {         
+	font: 11px Tahoma;                 
+	background-color:           #F6EDDA; }
+.qm_L2_cycle8 {        
+	font: 11px Tahoma;                  
+	background-color:           #DCEAEE; }
+.qm_L2_cycle9 {        
+	font: 11px Tahoma;                  
+	background-color:           #E9E2F4; }
+.qm_L2_cycle10 {        
+	font: 11px Tahoma;                  
+	background-color:           #EEF2FA; }
+.qm_L2_cycle11 {        
+	font: 11px Tahoma;                  
+	background-color:           #E1E2FA; }
+.qm_L2_cycle12 {       
+	font: 11px Tahoma;                   
+	background-color:           #EEFAE1; }
+.qm_L2_cycle13 {         
+	font: 11px Tahoma;                 
+	background-color:           #EDFCFB; }
+.qm_L2_cycle14 {        
+	font: 11px Tahoma;                  
+	background-color:           #FBEBE8; }
+.qm_L2_cycle15 {       
+	font: 11px Tahoma;                   
+	background-color:           #EDEDED; }	
+.qm_L2_cycle16 {       
+	font: 11px Tahoma;                   
+	background-color:           #F6EDDA; }
+
+#qm_screener div.menu tr.menuItem:hover, #qm_screener div.menu tr.menuItemHighlight {
+	background-color: #dee1e5;
+}
+.qmsm_header {
+	padding: 2px;
+}
+.qmsm_cycle1 {
+	background-color: #fff;
+}
+.qmsm_cycle2 {
+	background-color: #eff3f7;
+}
+.qmsm_cycle1, .qmsm_cycle2. qmsm_cell {
+	border: 1px solid #eee;
+	font: 11px Tahoma;
+}
+#qm_market_watchlist .qmmt_main, #qm_market_movers .qmmt_main {
+	border: none;
+}
+#qm_market_watchlist .qmmt_text, #qm_market_movers .qmmt_text {
+	font-size: 12px;
+	padding: 2px;
+}
+#qm_market_watchlist a.qmmt, #qm_market_movers a.qmmt {
+	font-size: 12px;
+}
+#qm_market_charts_wrapper, #qm_market_watchlist, #qm_market_movers {
+	width: 625px;
+	clear: both;
+}
+#qm_market_charts_wrapper h3
+{
+	font: 13px Tahoma;
+	color: #666;
+	margin: 0;
+}
+#qm_market_charts_wrapper .qm_chart {
+	float: left;
+}
+#qm_market_charts_wrapper .qm_mid_chart {
+	padding: 0px 12px;
+}
+#qm_market_watchlist .qmmt_sortHeaderText {
+	font-weight: normal;
+}
+.qmmt_main { border: 0; }
+
+.market-watch .qmmt_header_bar { display : none; }
+
+.qmmt_nonrt_text { display : none; }
+
+.qmpf_sortHeaderText {
+	cursor: pointer;
+}
+.qmpf_cycle1, .qmpf_cycle2 {
+	border-color: #eee;
+}
+.qmpf_realtime_text, .qmpf_nonrt_text, .qmpf_cycleup, .qmpf_cycledown, .qmpf_cyclenochange, .qmpf_filings_nav_wrapper, .qmpf_sortHeaderText, a.qmpf_header, .qmpf-total-row .qmpf_header, .qmpf_labeltext, .qmpf_cell, .qmpf_cell_textdown, .qmpf_cell_textup {
+	font: 11px Tahoma;
+}
+.qmpf_cycleup, .qmpf_cycledown, .qmpf_cyclenochange, .qmpf_filings_nav_wrapper, .qmpf_labeltext, .qmpf_cell, .qm-account-message-text {
+	color: #666;
+}
+.qmpf_navtext {
+	color: #000;
+	font-size: 11px;
+	text-decoration: none !important;
+}
+.qmpf_charts_label {
+	text-align: left;
+}
+.qmpf_navFuncSepHelpLogout, .qmpf_navFuncLogout, .qmpf_symbolname_header, .qm-nav-updateProfile, .qm-nav-updatePassword, .qm-nav-cancelAccount {
+	display: none;
+}
+table.qmpf_multicharts_border td {
+	border-bottom: 1px solid #eff3f7;
+}
+a.qmpf_header, a:visited.qmpf_header, a.qmpf_header:hover {
+	color: #000;
+	text-decoration: none;
+}
+#qmAccount {
+	width: 990px;
+}
+#qm-account-error-div {
+	display: none;
+}
+.qm-account-subtitle, .qm-account-link a, .qm-account-link a:visited, .qm-account-link a:hover, a.qm-account-message-link, a.qm-account-message-link:visited, a.qm-account-message-link:hover, a.qm-unsigned-link, a.qm-unsigned-link:visited, a.qm-unsigned-link:hover {
+	font-weight: bold;
+}
+.qm-agreements-notice-title {
+	font-weight: bold !important;
+}
+.qm-account-copyright-wrapper {
+	border-top: 1px solid #eee;
+}
+.qm-account-link, .qm-account-error {
+	padding: 10px 20px;
+}
+#qmAgreementsLink #qm-account-error-div {
+	display: block;
+}
+.qm-account-error, .qm-account-message-text, .qm-agreements-notice-title {
+	font: bold 11px Tahoma;
+}
+.qm-account-message-wrapper {
+	border-color: #dee1e5;
+}
+.qm-account-agreementtext {
+	font: 10px Tahoma;
+	color: #666;
+}
+#qmAccount .qm-account-link {
+	padding: 0px;
+	background-color: transparent;
+}
+.qmam-tool-wrapper {
+	width: 990px;
+}
+.qm-news-menu-view, #qmDropDownWrapper { 
+	display : none;
+}
+#qm_currency_converter .qm_heading_text a.qm, .qm_currencyListHeader, .qm_currencyListContents { 
+	display: none;
+}
+#qmQuote_Watch .qmmt_text { padding : 1px; }
+
+.moreETFS { display : none; }
+.qmpf_wrapper .qm_main { 
+                background-color: #fff; 
+} 
+.qmpf_wrapper .qm_cycle { 
+                background-color: #eff3f7; 
+} 
+a:link.qm { font-size: 11px; font-weight: normal; }  
+a:hover.qm {color:#E6911E !important; }
